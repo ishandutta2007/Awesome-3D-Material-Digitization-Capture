@@ -1,157 +1,137 @@
-# Awesome-3D-Material-Digitization-Capture
-
-## Top 3D Material Digitization & Capture Ecosystem
-
-
-
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-
-*Focused on Photo-to-PBR Conversion, Procedural Material Authoring & Self-Hosted Texture Pipelines*  
-
-**Last updated: October 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **3D Material Digitization & Capture**. These tools transform photographs, scans, and procedural inputs into game-ready PBR materials—albedo, normal, roughness, metallic, ambient occlusion, and height maps—ranging from AI-assisted commercial suites to lightweight open-source converters.
-
-
-
-**Examples** include Adobe Substance 3D Sampler, InstaMAT, Materialize, AwesomeBump, and Material Maker (the category leaders).
-
-
-
-**Open-source emphasis**: This section is heavily expanded with every major active project for self-hosting, avoiding subscription fees, and controlling the texture pipeline. The open-source landscape is anchored by **Materialize** (the long-standing image-to-PBR converter with a slider-driven workflow and live 3D preview), **AwesomeBump** (the GPU-accelerated normal/height/specular generator), and **Material Maker** (the node-based procedural authoring tool built on Godot), with **ComfyUI-SuperPBR** and **TextureForge** serving AI-assisted and browser-based needs respectively.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-| Product | Company / Developer | Company Size (Valuation / Revenue) | Description | Pricing | Free Tier Limit |
-
-| :--- | :--- | :--- | :--- | :--- | :--- |
-
-| **[Adobe Substance 3D Sampler](https://www.adobe.com/products/substance3d/apps/sampler.html)** | Adobe Inc. (NASDAQ: ADBE) | ~$130B–$225B+ market cap (~$21.5B–$23.8B annual revenue) | Photo-to-material capture with AI-assisted delighting, tiling, and PBR map generation, bundled in Adobe's Substance ecosystem. | **Substance 3D Texturing plan**: ~$24.99/month (annual prepaid ~$249.99/year), includes Sampler, Designer, and Painter . **Full Collection**: ~$60/month . | **30-day free trial** via Adobe account . No permanent free tier for the application itself. |
-
-| **[Substance Alchemist](https://www.adobe.com/)** | Adobe Inc. (NASDAQ: ADBE) | ~$130B–$225B+ market cap (~$21.5B–$23.8B annual revenue) | **Legacy name**—Substance Alchemist was renamed to **Substance 3D Sampler** and is no longer a separate product. | See Adobe Substance 3D Sampler above. | See Adobe Substance 3D Sampler above. |
-
-| **[Bitmap2Material](https://store.steampowered.com/)** | Allegorithmic / Adobe Inc. | ~$130B–$225B+ market cap (Allegorithmic acquired by Adobe; ~$15M–$20M revenue prior) | Allegorithmic's (now Adobe) image-to-PBR tool. **Legacy product**—largely superseded by Substance Sampler. | **N/A** on Steam as of 2026; historical lowest recorded price ~$33.49 . | **No current free tier**. Legacy licenses may persist. |
-
-| **[Quixel Mixer](https://quixel.com/mixer)** | Epic Games (Quixel acquired 2019) | ~$22.5B–$31.5B valuation (~$5.3B–$5.6B annual revenue) | **Discontinued.** Final version 2023.1 released free, runs offline indefinitely, no further updates or support . | **Free** (final version, requires Epic Games account) . | **Fully free** final version with 800+ built-in assets, but **no online library access** and no future updates . |
-
-| **[InstaMAT](https://www.instamat.com/)** | Abstract (Abstract Group GmbH & Co. KG) | Mid-sized private studio (bootstrapped; Pioneer tier free under <$100k revenue) | Material authoring and texturing tool positioned as a Substance alternative, with layer-based painting and node workflows. | **Pioneer license**: **Free** for indie artists/studios earning under **$100,000/year**, usable on commercial projects with attribution . Paid tiers available for larger organizations. | **Free Pioneer license** (revenue < $100k/year, attribution required). Native Linux support included . |
-
-| **[ShaderMap Pro](https://shadermap.com/)** | Rendering Systems Inc. | Micro-studio / boutique developer (<$1M est. annual revenue) | Map generation suite converting diffuse/displacement/normal sources into full PBR sets. | Pricing not published in search results (~$49.95 commercial license). Contact vendor. | Not specified in available results. |
-
-| **[Crazybump](https://www.crazybump.com/)** | Ryan Clark | Solo indie developer (<$1M est. annual revenue) | Normal map and texture generation from photos. Shareware with a free evaluation. | **$49** shareware license (version 1.22) . | **Free trial** available; continued use requires purchase. |
-
-| **[Knald](https://www.knaldtech.com/)** | Knald Technologies | Micro-studio / boutique developer (<$1M est. annual revenue) | GPU-accelerated normal/height/AO map generator. | **Freelancer License**: non-commercial use. **Studio License**: commercial use (quote-based) . | **Freelancer License** available (non-commercial only). Commercial use requires Studio license. |
-
-| **[MindTex 2](https://store.steampowered.com/app/441770/MindTex_2/)** | Frozen Flame LLC | Solo indie developer (<$500k est. annual revenue) | Normal map generation utility for game developers and 3D professionals. | **$19.99** on Steam (frequent discounts, e.g., $5.99 during sales) . | **No free tier**. Paid Steam license only. |
-
-
-
-## Open-Source GitHub Projects
-
-
-
-- **[Materialize](https://github.com/BoundingBoxSoftware/Materialize)** [![GitHub Stars](https://img.shields.io/github/stars/BoundingBoxSoftware/Materialize?style=social&color=white)](https://github.com/BoundingBoxSoftware/Materialize/stargazers)  
-
-  **The long-standing image-to-PBR converter.** Free, open-source (GPL-3.0), and still widely used nearly a decade after its 2018 release . **Workflow**: import a source image, step through map generation with a slider-based interface, preview results in real-time on a 3D model in the viewport, and export standard PBR texture maps . **Features**: seamless tiling, clipboard automation via XML commands, and support for generating the full PBR suite from a single image . **Status**: ~1,460 GitHub stars, updated recently (2 months ago as of the source date) . Best for artists wanting a straightforward, free tool for photo-to-material conversion without subscriptions or AI dependencies.
-
-
-
-- **[AwesomeBump](https://github.com/kmkolasinski/AwesomeBump)** [![GitHub Stars](https://img.shields.io/github/stars/kmkolasinski/AwesomeBump?style=social&color=white)](https://github.com/kmkolasinski/AwesomeBump/stargazers)  
-
-  **The GPU-accelerated map generator.** Written in C++ with Qt, designed to generate normal, height, specular, and ambient occlusion textures from a single image—positioned as an alternative to the GIMP plugin Insane Bump . **Performance**: image processing is done **99% on GPU**, so the program runs very fast and all parameters can be changed in real time . Best for users wanting a fast, open-source tool for map generation with immediate visual feedback.
-
-
-
-- **[Material Maker](https://github.com/RodZill4/material-maker)** [![GitHub Stars](https://img.shields.io/github/stars/RodZill4/material-maker?style=social&color=white)](https://github.com/RodZill4/material-maker/stargazers)  
-
-  **The node-based procedural authoring tool.** Built on the Godot engine, it provides a visual graph interface for authoring complex surface properties and textures through connected functional nodes . **Features**: procedural texture generation, 3D painting directly onto geometry, and a material exporter that converts authored data into formats compatible with external 3D software and game engines . Best for technical artists and teams wanting a free, procedural alternative to Substance Designer's node-graph workflow.
-
-
-
-- **[ComfyUI-SuperPBR](https://github.com/Hullabalo/ComfyUI-SuperPBR)** [![GitHub Stars](https://img.shields.io/github/stars/Hullabalo/ComfyUI-SuperPBR?style=social&color=white)](https://github.com/Hullabalo/ComfyUI-SuperPBR/stargazers)  
-
-  **The AI-assisted PBR decomposition suite.** ComfyUI nodes for the **Base SuperMat** model (ICCV 2025)—a Stable Diffusion 2.1 UNet finetuned as a single-step feed-forward network . **Workflow**: one pass over a rendered object produces **albedo** and **ORM** (occlusion/roughness/metallic) maps, with tile split/stitch nodes for images larger than 512px . **Use case**: reconstructing PBR materials from existing renders or photos using AI rather than manual slider tuning. Best for users already in the ComfyUI ecosystem wanting AI-powered material extraction.
-
-
-
-- **[TextureForge](https://github.com/yedp123/Yedp-Texture-Forge)** [![GitHub Stars](https://img.shields.io/github/stars/yedp123/Yedp-Texture-Forge?style=social&color=white)](https://github.com/yedp123/Yedp-Texture-Forge/stargazers)  
-
-  **The zero-install browser tool.** Single-file HTML/React application that runs entirely client-side—drop in an image and generate Normal, Roughness, Ambient Occlusion, Height, Metallic, and Opacity maps . **Features**: smart tiling, manual clone stamp, direct normal painting, real-time 3D preview (plane/cube/sphere with HDRI lighting), and one-click ZIP export . **Caveat**: marked **Experimental**; AI features require optional API keys but core PBR generation works without them . Best for quick material prototyping without installing anything.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **ArmorPaint / ArmorTools** — Open-source PBR texture painting suite with GPU-accelerated texture baking and node-based material editing, plus AI-assisted map generation from text prompts . Best for users wanting Substance Painter-like painting with open-source licensing.
-
-- **Dream Textures** — Stable Diffusion integration for Blender, enabling AI-generated textures and concept art directly within the 3D environment . Best for Blender users wanting generative texture creation in their existing workflow.
-
-- **pbr-renderer (PBR Material Studio)** — WebGL 2.0 real-time PBR material authoring tool with Cook-Torrance BRDF, 10 material presets, and JSON export . Best for learning PBR principles and quick material previews in the browser.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- **Quixel Mixer is discontinued**: the final version (2023.1) is free and runs offline indefinitely, but receives no updates, has no online library access, and no product support . Do not select for new projects requiring active development.
-
-- **Bitmap2Material and Substance Alchemist are legacy names**: Bitmap2Material has been superseded by Adobe's Substance 3D Sampler ecosystem; Substance Alchemist was renamed to Sampler. Verify you're pursuing the current product before budgeting.
-
-- **Free tiers vary in commercial usability**: InstaMAT's Pioneer license is free only for studios under $100k/year revenue (attribution required) ; Knald's Freelancer license is non-commercial only ; Adobe's trial is 30 days with no permanent free tier .
-
-- **AI-assisted tools are experimental**: ComfyUI-SuperPBR and TextureForge are promising but newer; validate output quality against your specific material types before relying on them for production pipelines.
-
-
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome 3D Material Digitization & Capture Banner" width="100%" />
+</p>
+
+# 🎨 Awesome 3D Material Digitization & Capture
+
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesom"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-3D-Material-Digitization-Capture/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-3D-Material-Digitization-Capture?style=social&color=white" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-3D-Material-Digitization-Capture/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-3D-Material-Digitization-Capture?style=social&color=white" alt="GitHub Forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-3D-Material-Digitization-Capture/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-3D-Material-Digitization-Capture" alt="GitHub Issues" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-3D-Material-Digitization-Capture/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-3D-Material-Digitization-Capture" alt="License" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
+
+> 🌟 **A curated list of top SaaS platforms, AI material capture frameworks, and open-source GitHub projects for 3D material digitization, photo-to-PBR conversion, SVBRDF estimation, and procedural texture authoring.**
 
 ---
 
+## 📖 Table of Contents
+- [✨ Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [☁️ SaaS / Hosted Platforms](#️-saas--hosted-platforms)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [⭐ Star History](#-star-history)
+- [⚠️ Disclaimer](#️-disclaimer)
 
+---
 
-**Made for 3D artists, technical artists, and game developers building PBR material pipelines.**  
+## ✨ Sector Overview & Market Dynamics
 
-Let's make material digitization more open, accessible, and self-hostable.
+The global **3D digital asset, material digitization, and surface capture market** is estimated at **$26B–$33B** (with the broader 3D scanning and computer vision hardware/software market growing at a **~13%–19% CAGR** toward $50B+ over the coming decade), driven by surging demand across real-time gaming engines (Unreal Engine 5, Unity), VFX virtual production, architectural visualization, and photorealistic e-commerce digital twins.
+
+Market dynamics reflect a **moderately concentrated, bifurcated ecosystem**:
+- **Commercial Tier (Concentrated / Incumbent-led):** High-end commercial production is heavily concentrated around powerhouse ecosystems—primarily Adobe (Substance 3D texturing suite) and Epic Games (Unreal / Quixel ecosystem)—which enjoy strong network effects and pipeline lock-in across major game and film studios.
+- **Indie & Open-Source Tier (Rapidly Innovating & Fragmented):** Independent toolmakers and open-source communities are thriving, creating a dynamic alternative layer. Next-generation procedural platforms (such as InstaMAT and Material Maker), zero-install WebGL utilities, and cutting-edge deep learning models (single-image SVBRDF, diffusion-based delighting, and ComfyUI pipelines) provide viable, subscription-free pipelines for indie developers and technical artists.
+
+---
+
+## ☁️ SaaS / Hosted Platforms
+
+| Product | Company / Developer | Company Size (Valuation / Revenue) | Description | Pricing | Free Tier Limit |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **[Adobe Substance 3D Sampler](https://www.adobe.com/products/substance3d/apps/sampler.html)** | Adobe Inc. (NASDAQ: ADBE) | ~$130B–$225B+ market cap (~$21.5B–$23.8B annual revenue) | Photo-to-material capture with AI-assisted delighting, tiling, and PBR map generation, bundled in Adobe's Substance ecosystem. | **Substance 3D Texturing plan**: ~$24.99/month (annual prepaid ~$249.99/year), includes Sampler, Designer, and Painter . **Full Collection**: ~$60/month . | **30-day free trial** via Adobe account . No permanent free tier for the application itself. |
+| **[Substance Alchemist](https://www.adobe.com/)** | Adobe Inc. (NASDAQ: ADBE) | ~$130B–$225B+ market cap (~$21.5B–$23.8B annual revenue) | **Legacy name**—Substance Alchemist was renamed to **Substance 3D Sampler** and is no longer a separate product. | See Adobe Substance 3D Sampler above. | See Adobe Substance 3D Sampler above. |
+| **[Bitmap2Material](https://store.steampowered.com/)** | Allegorithmic / Adobe Inc. | ~$130B–$225B+ market cap (Allegorithmic acquired by Adobe; ~$15M–$20M revenue prior) | Allegorithmic's (now Adobe) image-to-PBR tool. **Legacy product**—largely superseded by Substance Sampler. | **N/A** on Steam as of 2026; historical lowest recorded price ~$33.49 . | **No current free tier**. Legacy licenses may persist. |
+| **[Quixel Mixer](https://quixel.com/mixer)** | Epic Games (Quixel acquired 2019) | ~$22.5B–$31.5B valuation (~$5.3B–$5.6B annual revenue) | **Discontinued.** Final version 2023.1 released free, runs offline indefinitely, no further updates or support . | **Free** (final version, requires Epic Games account) . | **Fully free** final version with 800+ built-in assets, but **no online library access** and no future updates . |
+| **[InstaMAT](https://www.instamat.com/)** | Abstract (Abstract Group GmbH & Co. KG) | Mid-sized private studio (bootstrapped; Pioneer tier free under <$100k revenue) | Material authoring and texturing tool positioned as a Substance alternative, with layer-based painting and node workflows. | **Pioneer license**: **Free** for indie artists/studios earning under **$100,000/year**, usable on commercial projects with attribution . Paid tiers available for larger organizations. | **Free Pioneer license** (revenue < $100k/year, attribution required). Native Linux support included . |
+| **[ShaderMap Pro](https://shadermap.com/)** | Rendering Systems Inc. | Micro-studio / boutique developer (<$1M est. annual revenue) | Map generation suite converting diffuse/displacement/normal sources into full PBR sets. | Pricing not published in search results (~$49.95 commercial license). Contact vendor. | Not specified in available results. |
+| **[Crazybump](https://www.crazybump.com/)** | Ryan Clark | Solo indie developer (<$1M est. annual revenue) | Normal map and texture generation from photos. Shareware with a free evaluation. | **$49** shareware license (version 1.22) . | **Free trial** available; continued use requires purchase. |
+| **[Knald](https://www.knaldtech.com/)** | Knald Technologies | Micro-studio / boutique developer (<$1M est. annual revenue) | GPU-accelerated normal/height/AO map generator. | **Freelancer License**: non-commercial use. **Studio License**: commercial use (quote-based) . | **Freelancer License** available (non-commercial only). Commercial use requires Studio license. |
+| **[MindTex 2](https://store.steampowered.com/app/441770/MindTex_2/)** | Frozen Flame LLC | Solo indie developer (<$500k est. annual revenue) | Normal map generation utility for game developers and 3D professionals. | **$19.99** on Steam (frequent discounts, e.g., $5.99 during sales) . | **No free tier**. Paid Steam license only. |
+
+---
+
+## 💻 Open-Source GitHub Projects
+
+Curated open-source software, research toolkits, and pipelines for self-hosted material capture, texture synthesis, and PBR authoring. **Sorted in descending order by GitHub stars:**
+
+- **[Dream Textures](https://github.com/carson-katri/dream-textures)** [![GitHub Stars](https://img.shields.io/github/stars/carson-katri/dream-textures?style=social&color=white)](https://github.com/carson-katri/dream-textures/stargazers)  
+  🧠 **Stable Diffusion built directly into Blender.** Enables AI-powered PBR texture generation, seamless tiling, inpainting, and concept material creation natively inside the 3D viewport without external cloud dependencies.
+
+- **[Material Maker](https://github.com/RodZill4/material-maker)** [![GitHub Stars](https://img.shields.io/github/stars/RodZill4/material-maker?style=social&color=white)](https://github.com/RodZill4/material-maker/stargazers)  
+  🎛️ **The premier open-source procedural material authoring suite.** Built on Godot Engine, Material Maker offers a visual node graph interface for generating complex procedural textures and direct 3D geometry painting—serving as the foremost free alternative to Substance Designer.
+
+- **[ArmorPaint](https://github.com/armory3d/armorpaint)** [![GitHub Stars](https://img.shields.io/github/stars/armory3d/armorpaint?style=social&color=white)](https://github.com/armory3d/armorpaint/stargazers)  
+  🖌️ **Open-source 3D PBR texture painting software.** Features GPU-accelerated texture baking, ray-traced material preview on complex meshes, node-driven material creation, and seamless brush painting, positioned as a lightweight, open-source alternative to Substance Painter.
+
+- **[glslViewer](https://github.com/patriciogonzalezvivo/glslViewer)** [![GitHub Stars](https://img.shields.io/github/stars/patriciogonzalezvivo/glslViewer?style=social&color=white)](https://github.com/patriciogonzalezvivo/glslViewer/stargazers)  
+  ⚡ **Console-based GLSL sandbox for 2D/3D shaders and PBR rendering.** Live-reloads shaders with support for image-based lighting (IBL), Cook-Torrance BRDF material evaluation, specular cubemaps, and geometry visualization on desktop and Raspberry Pi.
+
+- **[glTF-Transform](https://github.com/donmccurdy/glTF-Transform)** [![GitHub Stars](https://img.shields.io/github/stars/donmccurdy/glTF-Transform?style=social&color=white)](https://github.com/donmccurdy/glTF-Transform/stargazers)  
+  📦 **Comprehensive glTF 2.0 SDK and CLI for material processing.** Essential for modern 3D pipelines to compress textures (Basis Universal, KTX2, WebP), pack ORM (Occlusion/Roughness/Metallic) channels, deduplicate materials, and optimize game assets.
+
+- **[Materialize](https://github.com/BoundingBoxSoftware/Materialize)** [![GitHub Stars](https://img.shields.io/github/stars/BoundingBoxSoftware/Materialize?style=social&color=white)](https://github.com/BoundingBoxSoftware/Materialize/stargazers)  
+  📷 **The classic standalone image-to-PBR converter.** Generates complete PBR map sets (diffuse, normal, height, roughness, metallic, smoothness, edge mask, ambient occlusion) from a single photo with real-time 3D preview and seamless edge tiling sliders.
+
+- **[AwesomeBump](https://github.com/kmkolasinski/AwesomeBump)** [![GitHub Stars](https://img.shields.io/github/stars/kmkolasinski/AwesomeBump?style=social&color=white)](https://github.com/kmkolasinski/AwesomeBump/stargazers)  
+  🚀 **GPU-accelerated normal and height map generator.** Written in C++ with Qt/OpenGL, processing 99% of image computations on the GPU. Capable of generating normal, height, specular, AO, and roughness maps with fast real-time parameter tweaking.
+
+- **[glTF Sample Viewer](https://github.com/KhronosGroup/glTF-Sample-Viewer)** [![GitHub Stars](https://img.shields.io/github/stars/KhronosGroup/glTF-Sample-Viewer?style=social&color=white)](https://github.com/KhronosGroup/glTF-Sample-Viewer/stargazers)  
+  🎯 **Official Khronos Group glTF 2.0 PBR reference engine.** Provides an authoritative WebGL implementation of standard physically-based rendering, clearcoat, transmission, sheen, and volume extensions for verifying digitized material fidelity.
+
+- **[NormalMap-Online](https://github.com/cpetry/NormalMap-Online)** [![GitHub Stars](https://img.shields.io/github/stars/cpetry/NormalMap-Online?style=social&color=white)](https://github.com/cpetry/NormalMap-Online/stargazers)  
+  🌐 **Free in-browser normal and displacement map generator.** A zero-install WebGL application for fast creation of normal, displacement, ambient occlusion, and specular maps directly in web browsers.
+
+- **[diffmat](https://github.com/mit-gfx/diffmat)** [![GitHub Stars](https://img.shields.io/github/stars/mit-gfx/diffmat?style=social&color=white)](https://github.com/mit-gfx/diffmat/stargazers)  
+  🔬 **Differentiable material graph library from MIT GFX.** Uses PyTorch-based differentiable rendering for procedural material capture, recovering complex node-graph parameters and SVBRDF properties directly from multi-view photographs.
+
+- **[Universal Photometric Stereo](https://github.com/satoshi-ikehata/Universal-PS-CVPR2022)** [![GitHub Stars](https://img.shields.io/github/stars/satoshi-ikehata/Universal-PS-CVPR2022)](https://github.com/satoshi-ikehata/Universal-PS-CVPR2022/stargazers)  
+  🔦 **Deep learning photometric stereo for surface normal reconstruction.** Official CVPR PyTorch implementation for universal photometric stereo under arbitrary, uncalibrated lighting conditions.
+
+- **[TextureForge](https://github.com/yedp123/Yedp-Texture-Forge)** [![GitHub Stars](https://img.shields.io/github/stars/yedp123/Yedp-Texture-Forge?style=social&color=white)](https://github.com/yedp123/Yedp-Texture-Forge/stargazers)  
+  🛠️ **Zero-install browser material workbench.** Lightweight single-file HTML/React application running completely client-side. Generates normal, roughness, AO, height, and metallic maps with smart clone stamps and 3D preview.
+
+- **[ComfyUI-SuperPBR](https://github.com/Hullabalo/ComfyUI-SuperPBR)** [![GitHub Stars](https://img.shields.io/github/stars/Hullabalo/ComfyUI-SuperPBR?style=social&color=white)](https://github.com/Hullabalo/ComfyUI-SuperPBR/stargazers)  
+  🧩 **AI-assisted PBR decomposition for ComfyUI.** Built on the Base SuperMat model (ICCV) to decompose single renders or photographs into albedo and ORM (occlusion/roughness/metallic) map pairs in a single feed-forward step.
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are warmly welcome! Help keep this 3D material digitization ecosystem up-to-date and comprehensive:
+
+1. 🍴 **Fork** this repository.
+2. 🌿 **Create a branch** for your addition (`git checkout -b feature/add-new-tool`).
+3. 📝 **Add entries** following the established format:
+   - Include tool name, official repository/product link, star badge (for open-source), and concise descriptive overview.
+   - For SaaS products, include pricing, free tier limits, and company size data.
+4. 🚀 **Submit a Pull Request** with a brief summary of the project.
+
+---
+
+## 💖 Support & Sponsorship
+
+If you find this curated collection useful for your 3D workflow, game development pipeline, or research, please consider supporting the project:
+
+- ⭐ **Star this repository** to help others discover it!
+- 🍴 **Fork and share** with your fellow 3D artists, technical artists, and indie developers.
+- ☕ **Buy a coffee & sponsor**: Support ongoing maintenance through the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-3D-Material-Digitization-Capture&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-3D-Material-Digitization-Capture&type=date&legend=top-left)
+
+---
+
+## ⚠️ Disclaimer
+
+- This is an **independently curated community list** for educational and developer reference. Product names and trademarks belong to their respective owners.
+- **Quixel Mixer** is discontinued by Epic Games: the final release (2023.1) is free and operates offline, but receives no future updates or online Megascans library access.
+- **Substance Alchemist & Bitmap2Material** are legacy products superseded within Adobe's Substance 3D Sampler ecosystem.
+- Commercial usability rules vary for free indie licenses (e.g. InstaMAT Pioneer tier applies only to entities with <$100k annual revenue). Always verify terms for commercial pipelines.
