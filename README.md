@@ -44,27 +44,27 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 
 
-| Product | Description | Pricing | Free Tier Limit |
+| Product | Company / Developer | Company Size (Valuation / Revenue) | Description | Pricing | Free Tier Limit |
 
-| :--- | :--- | :--- | :--- |
+| :--- | :--- | :--- | :--- | :--- | :--- |
 
-| **[Adobe Substance 3D Sampler](https://www.adobe.com/products/substance3d/apps/sampler.html)** | Photo-to-material capture with AI-assisted delighting, tiling, and PBR map generation, bundled in Adobe's Substance ecosystem. | **Substance 3D Texturing plan**: ~$24.99/month (annual prepaid ~$249.99/year), includes Sampler, Designer, and Painter . **Full Collection**: ~$60/month . | **30-day free trial** via Adobe account . No permanent free tier for the application itself. |
+| **[Adobe Substance 3D Sampler](https://www.adobe.com/products/substance3d/apps/sampler.html)** | Adobe Inc. (NASDAQ: ADBE) | ~$130B–$225B+ market cap (~$21.5B–$23.8B annual revenue) | Photo-to-material capture with AI-assisted delighting, tiling, and PBR map generation, bundled in Adobe's Substance ecosystem. | **Substance 3D Texturing plan**: ~$24.99/month (annual prepaid ~$249.99/year), includes Sampler, Designer, and Painter . **Full Collection**: ~$60/month . | **30-day free trial** via Adobe account . No permanent free tier for the application itself. |
 
-| **[Quixel Mixer](https://quixel.com/mixer)** | **Discontinued.** Final version 2023.1 released free, runs offline indefinitely, no further updates or support . | **Free** (final version, requires Epic Games account) . | **Fully free** final version with 800+ built-in assets, but **no online library access** and no future updates . |
+| **[Substance Alchemist](https://www.adobe.com/)** | Adobe Inc. (NASDAQ: ADBE) | ~$130B–$225B+ market cap (~$21.5B–$23.8B annual revenue) | **Legacy name**—Substance Alchemist was renamed to **Substance 3D Sampler** and is no longer a separate product. | See Adobe Substance 3D Sampler above. | See Adobe Substance 3D Sampler above. |
 
-| **[InstaMAT](https://www.instamat.com/)** | Material authoring and texturing tool positioned as a Substance alternative, with layer-based painting and node workflows. | **Pioneer license**: **Free** for indie artists/studios earning under **$100,000/year**, usable on commercial projects with attribution . Paid tiers available for larger organizations. | **Free Pioneer license** (revenue < $100k/year, attribution required). Native Linux support included . |
+| **[Bitmap2Material](https://store.steampowered.com/)** | Allegorithmic / Adobe Inc. | ~$130B–$225B+ market cap (Allegorithmic acquired by Adobe; ~$15M–$20M revenue prior) | Allegorithmic's (now Adobe) image-to-PBR tool. **Legacy product**—largely superseded by Substance Sampler. | **N/A** on Steam as of 2026; historical lowest recorded price ~$33.49 . | **No current free tier**. Legacy licenses may persist. |
 
-| **[Crazybump](https://www.crazybump.com/)** | Normal map and texture generation from photos. Shareware with a free evaluation. | **$49** shareware license (version 1.22) . | **Free trial** available; continued use requires purchase. |
+| **[Quixel Mixer](https://quixel.com/mixer)** | Epic Games (Quixel acquired 2019) | ~$22.5B–$31.5B valuation (~$5.3B–$5.6B annual revenue) | **Discontinued.** Final version 2023.1 released free, runs offline indefinitely, no further updates or support . | **Free** (final version, requires Epic Games account) . | **Fully free** final version with 800+ built-in assets, but **no online library access** and no future updates . |
 
-| **[Bitmap2Material](https://store.steampowered.com/)** | Allegorithmic's (now Adobe) image-to-PBR tool. **Legacy product**—largely superseded by Substance Sampler. | **N/A** on Steam as of 2026; historical lowest recorded price ~$33.49 . | **No current free tier**. Legacy licenses may persist. |
+| **[InstaMAT](https://www.instamat.com/)** | Abstract (Abstract Group GmbH & Co. KG) | Mid-sized private studio (bootstrapped; Pioneer tier free under <$100k revenue) | Material authoring and texturing tool positioned as a Substance alternative, with layer-based painting and node workflows. | **Pioneer license**: **Free** for indie artists/studios earning under **$100,000/year**, usable on commercial projects with attribution . Paid tiers available for larger organizations. | **Free Pioneer license** (revenue < $100k/year, attribution required). Native Linux support included . |
 
-| **[MindTex 2](https://store.steampowered.com/app/441770/MindTex_2/)** | Normal map generation utility for game developers and 3D professionals. | **$19.99** on Steam (frequent discounts, e.g., $5.99 during sales) . | **No free tier**. Paid Steam license only. |
+| **[ShaderMap Pro](https://shadermap.com/)** | Rendering Systems Inc. | Micro-studio / boutique developer (<$1M est. annual revenue) | Map generation suite converting diffuse/displacement/normal sources into full PBR sets. | Pricing not published in search results (~$49.95 commercial license). Contact vendor. | Not specified in available results. |
 
-| **[Knald](https://www.knaldtech.com/)** | GPU-accelerated normal/height/AO map generator. | **Freelancer License**: non-commercial use. **Studio License**: commercial use (quote-based) . | **Freelancer License** available (non-commercial only). Commercial use requires Studio license. |
+| **[Crazybump](https://www.crazybump.com/)** | Ryan Clark | Solo indie developer (<$1M est. annual revenue) | Normal map and texture generation from photos. Shareware with a free evaluation. | **$49** shareware license (version 1.22) . | **Free trial** available; continued use requires purchase. |
 
-| **[ShaderMap Pro](https://shadermap.com/)** | Map generation suite converting diffuse/displacement/normal sources into full PBR sets. | Pricing not published in search results. Contact vendor. | Not specified in available results. |
+| **[Knald](https://www.knaldtech.com/)** | Knald Technologies | Micro-studio / boutique developer (<$1M est. annual revenue) | GPU-accelerated normal/height/AO map generator. | **Freelancer License**: non-commercial use. **Studio License**: commercial use (quote-based) . | **Freelancer License** available (non-commercial only). Commercial use requires Studio license. |
 
-| **[Substance Alchemist](https://www.adobe.com/)** | **Legacy name**—Substance Alchemist was renamed to **Substance 3D Sampler** and is no longer a separate product. | See Adobe Substance 3D Sampler above. | See Adobe Substance 3D Sampler above. |
+| **[MindTex 2](https://store.steampowered.com/app/441770/MindTex_2/)** | Frozen Flame LLC | Solo indie developer (<$500k est. annual revenue) | Normal map generation utility for game developers and 3D professionals. | **$19.99** on Steam (frequent discounts, e.g., $5.99 during sales) . | **No free tier**. Paid Steam license only. |
 
 
 
