@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesom"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-3D-Material-Digitization-Capture/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-3D-Material-Digitization-Capture?style=social&color=white" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-3D-Material-Digitization-Capture/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-3D-Material-Digitization-Capture?style=social&color=white" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-3D-Material-Digitization-Capture/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-3D-Material-Digitization-Capture?style=social&color=white" alt="GitHub Forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-3D-Material-Digitization-Capture/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-3D-Material-Digitization-Capture" alt="GitHub Issues" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-3D-Material-Digitization-Capture/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-3D-Material-Digitization-Capture" alt="License" /></a>
@@ -57,45 +57,45 @@ Market dynamics reflect a **moderately concentrated, bifurcated ecosystem**:
 
 ## 💻 Open-Source GitHub Projects
 
-Curated open-source software, research toolkits, and pipelines for self-hosted material capture, texture synthesis, and PBR authoring. **Sorted in descending order by GitHub stars:**
+Curated open-source software, research toolkits, and pipelines for self-hosted material capture, texture synthesis, and PBR authoring. **Sorted in descending order by GitHub_Stars:**
 
-- **[Dream Textures](https://github.com/carson-katri/dream-textures)** [![GitHub Stars](https://img.shields.io/github/stars/carson-katri/dream-textures?style=social&color=white)](https://github.com/carson-katri/dream-textures/stargazers)  
+- **[Dream Textures](https://github.com/carson-katri/dream-textures)** [![GitHub_Stars](https://img.shields.io/github/stars/carson-katri/dream-textures?style=social&color=white)](https://github.com/carson-katri/dream-textures/stargazers)  
   🧠 **Stable Diffusion built directly into Blender.** Enables AI-powered PBR texture generation, seamless tiling, inpainting, and concept material creation natively inside the 3D viewport without external cloud dependencies.
 
-- **[Material Maker](https://github.com/RodZill4/material-maker)** [![GitHub Stars](https://img.shields.io/github/stars/RodZill4/material-maker?style=social&color=white)](https://github.com/RodZill4/material-maker/stargazers)  
+- **[Material Maker](https://github.com/RodZill4/material-maker)** [![GitHub_Stars](https://img.shields.io/github/stars/RodZill4/material-maker?style=social&color=white)](https://github.com/RodZill4/material-maker/stargazers)  
   🎛️ **The premier open-source procedural material authoring suite.** Built on Godot Engine, Material Maker offers a visual node graph interface for generating complex procedural textures and direct 3D geometry painting—serving as the foremost free alternative to Substance Designer.
 
-- **[ArmorPaint](https://github.com/armory3d/armorpaint)** [![GitHub Stars](https://img.shields.io/github/stars/armory3d/armorpaint?style=social&color=white)](https://github.com/armory3d/armorpaint/stargazers)  
+- **[ArmorPaint](https://github.com/armory3d/armorpaint)** [![GitHub_Stars](https://img.shields.io/github/stars/armory3d/armorpaint?style=social&color=white)](https://github.com/armory3d/armorpaint/stargazers)  
   🖌️ **Open-source 3D PBR texture painting software.** Features GPU-accelerated texture baking, ray-traced material preview on complex meshes, node-driven material creation, and seamless brush painting, positioned as a lightweight, open-source alternative to Substance Painter.
 
-- **[glslViewer](https://github.com/patriciogonzalezvivo/glslViewer)** [![GitHub Stars](https://img.shields.io/github/stars/patriciogonzalezvivo/glslViewer?style=social&color=white)](https://github.com/patriciogonzalezvivo/glslViewer/stargazers)  
+- **[glslViewer](https://github.com/patriciogonzalezvivo/glslViewer)** [![GitHub_Stars](https://img.shields.io/github/stars/patriciogonzalezvivo/glslViewer?style=social&color=white)](https://github.com/patriciogonzalezvivo/glslViewer/stargazers)  
   ⚡ **Console-based GLSL sandbox for 2D/3D shaders and PBR rendering.** Live-reloads shaders with support for image-based lighting (IBL), Cook-Torrance BRDF material evaluation, specular cubemaps, and geometry visualization on desktop and Raspberry Pi.
 
-- **[glTF-Transform](https://github.com/donmccurdy/glTF-Transform)** [![GitHub Stars](https://img.shields.io/github/stars/donmccurdy/glTF-Transform?style=social&color=white)](https://github.com/donmccurdy/glTF-Transform/stargazers)  
+- **[glTF-Transform](https://github.com/donmccurdy/glTF-Transform)** [![GitHub_Stars](https://img.shields.io/github/stars/donmccurdy/glTF-Transform?style=social&color=white)](https://github.com/donmccurdy/glTF-Transform/stargazers)  
   📦 **Comprehensive glTF 2.0 SDK and CLI for material processing.** Essential for modern 3D pipelines to compress textures (Basis Universal, KTX2, WebP), pack ORM (Occlusion/Roughness/Metallic) channels, deduplicate materials, and optimize game assets.
 
-- **[Materialize](https://github.com/BoundingBoxSoftware/Materialize)** [![GitHub Stars](https://img.shields.io/github/stars/BoundingBoxSoftware/Materialize?style=social&color=white)](https://github.com/BoundingBoxSoftware/Materialize/stargazers)  
+- **[Materialize](https://github.com/BoundingBoxSoftware/Materialize)** [![GitHub_Stars](https://img.shields.io/github/stars/BoundingBoxSoftware/Materialize?style=social&color=white)](https://github.com/BoundingBoxSoftware/Materialize/stargazers)  
   📷 **The classic standalone image-to-PBR converter.** Generates complete PBR map sets (diffuse, normal, height, roughness, metallic, smoothness, edge mask, ambient occlusion) from a single photo with real-time 3D preview and seamless edge tiling sliders.
 
-- **[AwesomeBump](https://github.com/kmkolasinski/AwesomeBump)** [![GitHub Stars](https://img.shields.io/github/stars/kmkolasinski/AwesomeBump?style=social&color=white)](https://github.com/kmkolasinski/AwesomeBump/stargazers)  
+- **[AwesomeBump](https://github.com/kmkolasinski/AwesomeBump)** [![GitHub_Stars](https://img.shields.io/github/stars/kmkolasinski/AwesomeBump?style=social&color=white)](https://github.com/kmkolasinski/AwesomeBump/stargazers)  
   🚀 **GPU-accelerated normal and height map generator.** Written in C++ with Qt/OpenGL, processing 99% of image computations on the GPU. Capable of generating normal, height, specular, AO, and roughness maps with fast real-time parameter tweaking.
 
-- **[glTF Sample Viewer](https://github.com/KhronosGroup/glTF-Sample-Viewer)** [![GitHub Stars](https://img.shields.io/github/stars/KhronosGroup/glTF-Sample-Viewer?style=social&color=white)](https://github.com/KhronosGroup/glTF-Sample-Viewer/stargazers)  
+- **[glTF Sample Viewer](https://github.com/KhronosGroup/glTF-Sample-Viewer)** [![GitHub_Stars](https://img.shields.io/github/stars/KhronosGroup/glTF-Sample-Viewer?style=social&color=white)](https://github.com/KhronosGroup/glTF-Sample-Viewer/stargazers)  
   🎯 **Official Khronos Group glTF 2.0 PBR reference engine.** Provides an authoritative WebGL implementation of standard physically-based rendering, clearcoat, transmission, sheen, and volume extensions for verifying digitized material fidelity.
 
-- **[NormalMap-Online](https://github.com/cpetry/NormalMap-Online)** [![GitHub Stars](https://img.shields.io/github/stars/cpetry/NormalMap-Online?style=social&color=white)](https://github.com/cpetry/NormalMap-Online/stargazers)  
+- **[NormalMap-Online](https://github.com/cpetry/NormalMap-Online)** [![GitHub_Stars](https://img.shields.io/github/stars/cpetry/NormalMap-Online?style=social&color=white)](https://github.com/cpetry/NormalMap-Online/stargazers)  
   🌐 **Free in-browser normal and displacement map generator.** A zero-install WebGL application for fast creation of normal, displacement, ambient occlusion, and specular maps directly in web browsers.
 
-- **[diffmat](https://github.com/mit-gfx/diffmat)** [![GitHub Stars](https://img.shields.io/github/stars/mit-gfx/diffmat?style=social&color=white)](https://github.com/mit-gfx/diffmat/stargazers)  
+- **[diffmat](https://github.com/mit-gfx/diffmat)** [![GitHub_Stars](https://img.shields.io/github/stars/mit-gfx/diffmat?style=social&color=white)](https://github.com/mit-gfx/diffmat/stargazers)  
   🔬 **Differentiable material graph library from MIT GFX.** Uses PyTorch-based differentiable rendering for procedural material capture, recovering complex node-graph parameters and SVBRDF properties directly from multi-view photographs.
 
-- **[Universal Photometric Stereo](https://github.com/satoshi-ikehata/Universal-PS-CVPR2022)** [![GitHub Stars](https://img.shields.io/github/stars/satoshi-ikehata/Universal-PS-CVPR2022)](https://github.com/satoshi-ikehata/Universal-PS-CVPR2022/stargazers)  
+- **[Universal Photometric Stereo](https://github.com/satoshi-ikehata/Universal-PS-CVPR2022)** [![GitHub_Stars](https://img.shields.io/github/stars/satoshi-ikehata/Universal-PS-CVPR2022)](https://github.com/satoshi-ikehata/Universal-PS-CVPR2022/stargazers)  
   🔦 **Deep learning photometric stereo for surface normal reconstruction.** Official CVPR PyTorch implementation for universal photometric stereo under arbitrary, uncalibrated lighting conditions.
 
-- **[TextureForge](https://github.com/yedp123/Yedp-Texture-Forge)** [![GitHub Stars](https://img.shields.io/github/stars/yedp123/Yedp-Texture-Forge?style=social&color=white)](https://github.com/yedp123/Yedp-Texture-Forge/stargazers)  
+- **[TextureForge](https://github.com/yedp123/Yedp-Texture-Forge)** [![GitHub_Stars](https://img.shields.io/github/stars/yedp123/Yedp-Texture-Forge?style=social&color=white)](https://github.com/yedp123/Yedp-Texture-Forge/stargazers)  
   🛠️ **Zero-install browser material workbench.** Lightweight single-file HTML/React application running completely client-side. Generates normal, roughness, AO, height, and metallic maps with smart clone stamps and 3D preview.
 
-- **[ComfyUI-SuperPBR](https://github.com/Hullabalo/ComfyUI-SuperPBR)** [![GitHub Stars](https://img.shields.io/github/stars/Hullabalo/ComfyUI-SuperPBR?style=social&color=white)](https://github.com/Hullabalo/ComfyUI-SuperPBR/stargazers)  
+- **[ComfyUI-SuperPBR](https://github.com/Hullabalo/ComfyUI-SuperPBR)** [![GitHub_Stars](https://img.shields.io/github/stars/Hullabalo/ComfyUI-SuperPBR?style=social&color=white)](https://github.com/Hullabalo/ComfyUI-SuperPBR/stargazers)  
   🧩 **AI-assisted PBR decomposition for ComfyUI.** Built on the Base SuperMat model (ICCV) to decompose single renders or photographs into albedo and ORM (occlusion/roughness/metallic) map pairs in a single feed-forward step.
 
 ---
@@ -107,7 +107,7 @@ Contributions are warmly welcome! Help keep this 3D material digitization ecosys
 1. 🍴 **Fork** this repository.
 2. 🌿 **Create a branch** for your addition (`git checkout -b feature/add-new-tool`).
 3. 📝 **Add entries** following the established format:
-   - Include tool name, official repository/product link, star badge (for open-source), and concise descriptive overview.
+   - Include tool name, official repository/product link, Stars_Badge (for open-source), and concise descriptive overview.
    - For SaaS products, include pricing, free tier limits, and company size data.
 4. 🚀 **Submit a Pull Request** with a brief summary of the project.
 
